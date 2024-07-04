@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.container {
+    text-align: center;
+    border-radius: 40px;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 80px;
+    background: #e9e9e9;
+    box-shadow: 1px 1px 20px #2e9c3e;
+    border: solid #45d432 5px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 10;
+    text-align: center;
+    color: #45d432;
+    margin-bottom: 15px;
+    font-family: "Lilita One", sans-serif;
+}
+
+
+label {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 10;
+    justify-content: center;
+    color: #45d432;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    font-family: "Lilita One", sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 15;
+    text-align: center;
+    color: #45d432;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Lilita One", sans-serif;
+}
+
+#inputNumber{
+   width: 100%;
+   height: 30px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   border-radius: 20px;
+   text-align: center;
+   border: solid #45d432 2px;
+   font-family: "Lilita One", sans-serif;
+}
+
+#guessButton{
+    width: 50%;
+    height: 30px;
+    background: #45d432;
+    border: none;
+    border-radius: 20px;
+    color: #e9e9e9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor:help ;
+    font-family: "Lilita One", sans-serif;
+
+}
+
+#guessButton:hover{
+    background: #44ed2e;
+}
+
+
+
+#restartButton{
+    width: 100%;
+    height: 60px;
+    background: #45d432;
+    border: none;
+    border-radius: 20px;
+    color: #e9e9e9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: grab;
+    font-family: "Lilita One", sans-serif;
+
+}
+
+#restartButton:hover{
+    background: #44ed2e;
+}
